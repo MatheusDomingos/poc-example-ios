@@ -1,0 +1,50 @@
+{
+  "name": "AcessoBio",
+  "version": "1.0.1",
+  "summary": "A short description of AcessoBio.",
+  "description": "A short description about the project",
+  "homepage": "https://home.acessodigital.com.br/bio/livenessx-documentacao.html",
+  "license": "MIT",
+  "authors": {
+    "MatheusDomingos": "matheus_cancao@hotmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/acesso-io/acessobio-ios.git",
+    "tag": "1.0.1"
+  },
+  "source_files": "AcessoBio/**/*.{h,m}",
+  "resources": [
+    "AcessoBio/AcessoBio/*.{png}",
+    "*.{png}",
+    "AcessoBio/*.{png}",
+    "AcessoBio/AcessoBio/*.{mlmodel}",
+    "*.{mlmodel}",
+    "AcessoBio/*.{mlmodel}"
+  ],
+  "exclude_files": "AcessoBio/AcessoBio/*.plist",
+  "preserve_paths": [
+    "AcessoBio/AcessoBio/*.{mlmodel}",
+    "*.{mlmodel}",
+    "AcessoBio/*.{mlmodel}"
+  ],
+  "ios": {
+    "resource_bundles": {
+      "AcessoBio": "AcessoBio/AcessoBio/*.{mlmodel}"
+    }
+  },
+  "dependencies": {
+    "Firebase/MLVisionFaceModel": [
+
+    ],
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "JGProgressHUD": [
+
+    ]
+  },
+  "static_framework": true
+}

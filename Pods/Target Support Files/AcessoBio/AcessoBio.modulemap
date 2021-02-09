@@ -1,0 +1,6 @@
+framework module AcessoBio {
+  umbrella header "AcessoBio-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,15 @@
 ${PODS_ROOT}/Target Support Files/Pods-poc-ios/Pods-poc-ios-resources.sh
-${PODS_ROOT}/../../../sdk/acessobio-ios/AcessoBio/ic_close.png
-${PODS_ROOT}/../../../sdk/acessobio-ios/AcessoBio/ic_popup_face_error.png
-${PODS_ROOT}/../../../sdk/acessobio-ios/AcessoBio/CenterModelCrop.mlmodel
-${PODS_ROOT}/../../../sdk/acessobio-ios/AcessoBio/MobAwayLiveness.mlmodel
+${PODS_ROOT}/AcessoBio/AcessoBio/frame_cnh.png
+${PODS_ROOT}/AcessoBio/AcessoBio/frame_rg_frente.png
+${PODS_ROOT}/AcessoBio/AcessoBio/frame_rg_verso.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_close.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_popup_face_error.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_popup_light_error.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_reset_glass.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_reset_hat.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_reset_lamp.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_reset_phone.png
+${PODS_ROOT}/AcessoBio/AcessoBio/ic_takepicture.png
+${PODS_ROOT}/AcessoBio/AcessoBio/CenterModelCrop.mlmodel
+${PODS_ROOT}/AcessoBio/AcessoBio/MobAwayLiveness.mlmodel
 ${PODS_CONFIGURATION_BUILD_DIR}/AcessoBio/AcessoBio.bundle
-${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMLVisionFaceModel/GoogleMVFaceDetectorResources.bundle

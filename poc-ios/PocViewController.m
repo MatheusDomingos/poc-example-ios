@@ -22,7 +22,7 @@
     
     [self setTitle:@"POC"];
     
-    url = @"https://crediariohomolog.acesso.io/Treinamento";
+    url = @"";
     apikey = @"";
     token = @"";
     
@@ -35,7 +35,7 @@
 
 - (IBAction)openLivenessXWithCreateProcess:(id)sender {
     AcessoBioManager *acessoBioManager = [[AcessoBioManager alloc]initWithViewController:self url:url apikey:apikey token:token];
-    [acessoBioManager openLivenessXWithCreateProcess:@"12345678909" name:@"Matheus Domingos"];
+    [acessoBioManager openLivenessXWithCreateProcess:@"" name:@""];
 }
 
 - (IBAction)openCameraFace:(id)sender {
@@ -45,7 +45,7 @@
 
 - (IBAction)openCameraFaceWithCreateProcess:(id)sender {
     AcessoBioManager *acessoBioManager = [[AcessoBioManager alloc]initWithViewController:self url:url apikey:apikey token:token];
-    [acessoBioManager openCameraFaceWithCreateProcess:@"12345678909" name:@"Matheus Domingos"];
+    [acessoBioManager openCameraFaceWithCreateProcess:@"" name:@"Matheus Domingos"];
 }
 
 - (void)onSuccesLivenessX:(LivenessXResult *)result {

@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "538F0E76-7D73-4C17-8E77-85F362A9C63F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "poc-ios/PocViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-onSuccesLivenessX:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "ED4D1819-C62F-4780-99A6-5643A534D8A0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -71,48 +55,96 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6B9ACA01-0467-4F36-8AC3-A1F01149217A"
+            uuid = "F1B7EAB4-E161-4F04-A198-F4CEDF3E9905"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../sdk/acessobio-ios/AcessoBio/LivenessXView.m"
+            filePath = "../acessobio-ios/AcessoBio/CameraFaceView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2193"
-            endingLineNumber = "2193"
-            landmarkName = "-faceDetect"
+            startingLineNumber = "533"
+            endingLineNumber = "533"
+            landmarkName = "-take"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7AF9DEE6-B8EC-425B-B56B-9983D41E31C8"
+            uuid = "8E00FF64-8DF1-4DA8-915A-16B9A6E080C7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../sdk/acessobio-ios/AcessoBio/LivenessXView.m"
+            filePath = "../acessobio-ios/AcessoBio/CameraFaceView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2256"
-            endingLineNumber = "2256"
-            landmarkName = "-faceDetectBehavior"
+            startingLineNumber = "943"
+            endingLineNumber = "943"
+            landmarkName = "-actionAfterTakePicture:image:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BE363959-8437-43C8-9B6E-EA268914A470"
+            uuid = "04BA96F3-815F-4EA1-8C8A-B03C4C09C9D8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../sdk/acessobio-ios/AcessoBio/LivenessXView.m"
+            filePath = "Pods/AcessoBio/AcessoBio/LivenessXView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2423"
-            endingLineNumber = "2423"
-            landmarkName = "-sendBillingV3"
+            startingLineNumber = "753"
+            endingLineNumber = "753"
+            landmarkName = "-validateLiveness"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "258BF87E-50CC-48AD-9A32-BC8817F1524A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AcessoBio/AcessoBio/LivenessXView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "-getResultadoIAAwayObjc:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "433C3C4F-0DCE-4F6A-BF51-F9DFBD722B01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../acessobio-ios/AcessoBio/LivenessXView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "-readModelOBJC:isAway:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07CCF878-2D28-4C9B-A160-B9AA2DEE0CB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../acessobio-ios/AcessoBio/LivenessXView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "-readModelOBJC:isAway:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

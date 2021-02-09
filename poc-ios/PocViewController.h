@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PocViewController : UIViewController <AcessoBioDelegate> {
+@interface PocViewController : UIViewController < AcessoBioDelegate > {
     
     NSString *url;
     NSString *apikey;

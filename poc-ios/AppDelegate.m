@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [FIRApp configure];
+//    [FIRApp configure];
 
       PocViewController *pView = [PocViewController new];
       UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:pView];
